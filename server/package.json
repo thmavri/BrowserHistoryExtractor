@@ -1,0 +1,22 @@
+{
+  "name": "node-authentication",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.0.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "express-session": "~1.0.0",
+    "method-override": "~1.0.0",
+    "morgan": "~1.0.0",
+    "mysql": "^2.4.3",
+    "passport": "~0.1.17",
+    "passport-github": ">=0.0.0",
+    "crypto-js" : "~3.1.2-5",
+    "base64url" : "~1.0.4",
+    "qs" : "*",
+    "fs" : "*"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Get SmartWeb History",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "29",
+  "key" : "your key here !follow https://developer.chrome.com/apps/app_identity in detail on how to obtain it",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "clock.png"
+  },
+  "permissions": ["identity", 
+    "history",
+    "http://*/",
+    "https://*/",
+    "https://accounts.google.com/*", "https://www.googleapis.com/*"],
+  "oauth2": {
+    // client_id below is specifc to the application key. Follow the
+    // documentation to obtain one for your app.
+    "client_id": "your client id here",
+    "scopes": ["https://www.googleapis.com/auth/plus.login"]
+  }
+}
